@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+/*I pledge my honor that I have abided by the Stevens Honor System.
+Michael DelGaudio
+Brandon Seidman
+Katelyn Chen
+Milad Masoodi
+Mitra Modi*/
+/*Contact Content CSS here*/
+.main-content{
+	display: flex;
+	justify-content: center;
+  flex-direction: column;
+	background-color: #E7F8FC;
+	margin: 10px 3%;
+	padding: 1%;
+	min-height: 73vh;
+}
+h3{
+  text-align: center;
+  padding-bottom: 20px;
+}
+img{
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  display: none;
+}
+span:hover + img{
+  display: block;
+}
+h5.quackHeader{
+	padding-top:10px;
+	padding-bottom:5px;
+}
+
+h4{
+  padding-bottom: 10px;
+}
+.list{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.lighterText{
+  color: #0088FF;
+  opacity: .50;
+  padding-bottom: 5px;
+}
+.pad{
+  padding-top: 7px;
+}
+.user-input{
+  background-color: #96E0F1;
+  padding: 20px 15px;
+}
+li{
+  padding: 10px;
+}
+textarea::placeholder{
+  font-family: arial;
+  font-size: 20;
+}
+input::placeholder{
+  font-family: arial;
+  font-size: 20;
+}
+.user{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  width: 100%;
+  height: 25px;
+}
+textarea{
+  width: 100%;
+  height: 80px;
+}
