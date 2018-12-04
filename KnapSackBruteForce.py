@@ -29,8 +29,10 @@ def knapsack_brute_force(items, max_weight):
             knapsack = item_set
     return [best_value, knapsack]
 
-data = build_items(40)
-print(data)
+# data = build_items(40)
+# print(data)
+
+print(powerset([1,2,3,4,5]))
     
 # time1 = time.time()
 # print(knapsack_brute_force([[383, 282], [436, 598], [413, 139], [276, 566], [100, 49], [432, 495], [251, 103], [170, 593], [359, 537], [436, 400], [64, 205], [18, 390], [223, 144], [145, 476], [224, 390], [267, 6], [381, 376], [44, 27], [477, 231], [486, 533]], 1554))
